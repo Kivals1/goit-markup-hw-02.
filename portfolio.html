@@ -17,13 +17,13 @@
     <!--Шапка-->
     <header class="page-header">
       <nav>
-        <a href="/" class="logo">Web Studio</a>
+        <a href="/" class="logo link">Web<span class="logo-text link">Studio</span> </a>
         <ul class="nav list">
           <li class="link-studio">
-            <a href="./index.html" class="link">Студия</a>
+            <a href="/" class="link">Студия</a>
           </li>
           <li class="link-portfolio">
-            <a href="./portfolio.html" class="link">Портфолио</a>
+            <a href="./portfolio.html" class="link current">Портфолио</a>
           </li>
           <li class="link-contacts">
             <a href="/" class="link">Контакты</a>
@@ -42,17 +42,86 @@
 
     <!--Main content-->
     <main>
-      <h1>PORTFOLIO</h1>
+      <!--Hero-->
+      <section class="hero">
+        <h1 hidden class="hero-title">Портфолио</h1>
+      </section>
+      <!--filter-menu-->
+      <ul class="filter list">
+        <li class=""><button type="button" class="filter-button">Все</button></li>
+        <li><button type="button" class="filter-button">Веб-сайты</button></li>
+        <li><button type="button" class="filter-button">Приложения</button></li>
+        <li><button type="button" class="filter-button">Дизайн</button></li>
+        <li><button type="button" class="filter-button">Маркетинг</button></li>
+      </ul>
+
+      <!-- Work -->
+      <ul class="work list">
+        <li>
+          <h2 class="title">Технокряк</h2>
+          <img src="./images/portfolio/img-1-2.jpg" alt="Веб-сайт" />
+          <p>class="text">Веб-сайт</p>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </li>
+        <li>
+          <h2 class="title">Постер New Orlean vs Golden Star</h2>
+          <img src="./images/portfolio/img-2-2.jpg" alt="Постер" />
+          <p class="text">Дизайн</p>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </li>
+        <li>
+          <h2 class="title">Ресторан Seafood</h2>
+          <img src="./images/portfolio/img-3-2.jpg" alt="Приложение для ресторана" />
+          <p class="text">Приложение</p>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </li>
+        <li>
+          <h2 class="title">Проект Prime</h2>
+          <img src="./images/portfolio/img-4-2.jpg" alt="Наушники" />
+          <p class="text">Маркетинг</p>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </li>
+        <li>
+          <h2 class="title">Проект Boxes</h2>
+          <img src="./images/portfolio/img-5-2.jpg" alt="брендинг упаковочных коробок" />
+          <p class="text">Приложение</p>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </li>
+        <li>
+          <h2 class="title">Inspiration has no Borders</h2>
+          <img src="./images/portfolio/img-6-2.jpg" alt="Веб-сайт для путишествий" />
+          <p class="text">Веб-сайт</p>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </li>
+        <li>
+          <h2 class="title">Издание Limited Edition</h2>
+          <img src="./images/portfolio/img-7-2.jpg" alt="Книга" />
+          <p class="text">Дизайн</p>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </li>
+        <li>
+          <h2 class="title">Проект LAB</h2>
+          <img src="./images/portfolio/img-8-2.jpg" alt="Брендирование" />
+          <p class="text">Маркетинг</p>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </li>
+        <li>
+          <h2 class="title">Growing Business</h2>
+          <img src="./images/portfolio/img-9-2.jpg" alt="Приложения для бизнеса" />
+          <p class="text">Приложение</p>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </li>
+      </ul>
     </main>
 
     <!--footer-->
     <footer class="footer">
-      <a href="/" class="logo">Web Studio</a>
+      <a href="/" class="logo link">Web<span class="logo-text link">Studio</span> </a>
       <ul class="list">
         <li>
           <address class="address">
             <a
-              class="map"
+              class="map link"
               href="https://goo.gl/maps/PpD2TxyW5npjoRYC7"
               target="_blank"
               rel="noopener noreferrer"
@@ -61,10 +130,10 @@
           </address>
         </li>
         <li class="address-footer">
-          <a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="mail link">info@devstudio.com</a>
         </li>
         <li class="address-footer">
-          <a href="tel:+380961111111" class="phone">+38 096 111 11 11</a>
+          <a href="tel:+380961111111" class="phone link">+38 096 111 11 11</a>
         </li>
       </ul>
     </footer>
